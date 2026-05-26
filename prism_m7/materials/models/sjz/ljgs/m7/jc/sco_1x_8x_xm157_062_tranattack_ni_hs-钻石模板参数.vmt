@@ -1,0 +1,38 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\sjz\ljgs\m7\jc\hs\Sco_1X_8X_XM157_062_TranAttack_ni_hs" 
+	"$bumpmap" "models\sjz\ljgs\m7\jc\MR\Sco_1X_8X_XM157_062_TranAttack_ni_ZS"
+	"$phongexponenttexture"			"models\sjz\ljgs\m7\jc/MR/t_diamond_bc"
+        "$detail" 	"models\sjz\ljgs\m7\jc/MR/123"
+	"$detailscale" "1"        
+	"$detailblendfactor" "1.5" 
+	"$lightwarptexture"					"models\sjz\ljgs\m7\jc/MR/T_Diamond_mask"
+	"$PhongTint"         "[1.15 .75 .35]"
+	$phong	"1"
+	$phongboost	"1"
+	$phongfresnelranges	"[.9 .5 .1]"
+	
+	$translucent 1
+
+	"$basemapalphaenvmapmask"	"1"
+
+	"$HalfLambert" 			    "0"
+	"$NoDecal" 				    "0"
+	"$NoCull" 				    "0"
+	"$BlendTintByBaseAlpha"     "0"
+ 
+ 	"$Color2"					"[2.80 1.25 .15]"	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.12 .12 .12]"
+	"$envmapcontrast" 1
+
+	Proxies
+	{
+		MwEnvMapTint
+		{
+			min	".5"
+			max	".8"
+		}
+		MwCamo {}
+	}
+}

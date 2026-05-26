@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\sjz\ljgs\m7\jc\back" 
+	"$bumpmap" "normal"
+ 
+
+	"$color2" "[.5 .5 .5]"
+	"$envmap"   "env_cubemap"  
+	"$envmaptint"                    "[.25 .25 .25]" //env反射色彩 
+	"$normalmapalphaenvmapmask"      "1" //使用法线贴图的alpha通道作为env的通道 
+	"$envmapfresnel" "1" //镜面反射强度
+	"$envmapFresnelMinMaxExp"		"[0 .4 1]"//和法线冲突 最小 最大 指数 面向自己的小于侧面
+ 
+ $no_draw 0
+ 
+}

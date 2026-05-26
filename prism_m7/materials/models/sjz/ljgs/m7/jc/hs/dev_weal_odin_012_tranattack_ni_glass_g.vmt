@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\sjz\ljgs\m7\jc\g\Dev_Weal_Odin_012_TranAttack_ni_Glass_Emissive" 
+	"$bumpmap" "models\sjz\ljgs\m7\jc\Dev_Weal_Odin_012_TranAttack_ni_Glass_NCE"
+	"$lightwarptexture"					"white"
+	$nocull 1
+	$translucent 1
+	$alpha 0.85
+
+	$phongexponenttexture "models\sjz\ljgs\m7\jc\g/Dev_Weal_Odin_012_TranAttack_ni_Glass_MRA"
+	"$lightwarptexture"					"ddm4v5_lw"
+	"$PhongTint"       "[.31 .31 .31]"
+	$phong	"1"
+	$phongboost	".01"
+	$phongfresnelranges "[1 4 8]"
+	
+	"$basemapalphaenvmapmask"	"1"
+
+	"$HalfLambert" 			    "0"
+	"$NoDecal" 				    "1"
+	"$NoCull" 				    "0"
+	"$BlendTintByBaseAlpha"     "0"
+	"$Color2"						"[.81 .81 .81]"	//< RGB colors
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.01 .01 .01]"
+	"$envmapcontrast" 1
+}

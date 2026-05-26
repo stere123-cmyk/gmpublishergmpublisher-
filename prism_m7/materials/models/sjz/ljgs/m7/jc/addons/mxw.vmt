@@ -1,0 +1,42 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\sjz\ljgs\m7\jc\addons\mxw" 
+	"$bumpmap" "models\sjz\ljgs\m7\jc\addons\FroS_MCX_014_TranAttack_ni_NCE"
+	
+	"$Color2"					"[1 1 1]"
+
+	// 核心照明优化
+    "$HalfLambert" "1"                    // 启用半兰伯特，让暗部更亮
+    
+    // 环境光增强 - 让暗处不那么黑
+    "$ambientocclusion" "0"               // 禁用AO避免暗部过暗
+    "$ambientreflection" "1"              // 启用环境反射
+    "$ambientreflectiontint" "[0.8 0.8 1.0]"  // 偏冷色调的环境反射
+    
+    // 漫反射优化
+    "$diffusetint" "[1.5 1.5 1.5]"        // 提高漫反射亮度
+    "$diffusewarp" "1"                    // 启用漫反射扭曲
+    
+    // 边缘光增强
+    "$rimlight" "1"
+    "$rimlightexponent" "1.5"             // 降低指数让边缘光更柔和
+    "$rimlightboost" "2.0"                // 提高边缘光强度
+	
+	 // 高级照明控制
+    "$nodecal" "0"
+    "$nocull" "0"
+    "$reflectivity" "[0.3 0.3 0.3]"       // 添加适量反射性
+    "$phong" "1"                          // 启用冯氏高光
+    "$phongexponent" "10"                 // 柔和的高光
+    "$phongtint" "[0.5 0.5 0.8]"          // 冷色调高光
+    "$phongboost" "1.5"                   // 适量高光强度
+    
+    // 阴影控制
+    "$shadowlod" "0"                      // 确保不使用阴影LOD
+	
+	"$EmissiveBlendEnabled" 		"1"			
+    "$EmissiveBlendStrength" 		"5" 						
+    "$EmissiveBlendTexture" 	    "vgui/white"		
+    "$EmissiveBlendBaseTexture" 	"models\sjz\ljgs\m7\jc\addons\e"		
+    "$EmissiveBlendTint"            "[1 1 1]"
+}

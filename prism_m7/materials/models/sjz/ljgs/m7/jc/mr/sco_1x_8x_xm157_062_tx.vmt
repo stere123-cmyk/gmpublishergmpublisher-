@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\sjz\ljgs\m7\jc\1" 
+	
+	"$selfillum" "1"
+	"$Color2"					"[1 1 1]"
+	
+		
+}

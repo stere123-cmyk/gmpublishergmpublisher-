@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{ 
+	"$basetexture" "models\sjz\ljgs\m7\jc\g\Sco_1X_8X_XM157_062_logo" 
+	"$bumpmap" "models\sjz\ljgs\m7\jc\Sco_1X_8X_XM157_062_TranAttack_ni_Glass_NCE"
+	"$lightwarptexture"					"white"
+	
+	"$selfillum" "1"
+ 
+	
+	"$Color2"					"[1 1 1]"	
+ 
+	"$nocull" "1"
+	"$REFRACTTINT" "{128 128 128}"
+	"$additive" "1" 
+}

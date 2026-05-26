@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\sjz\ljgs\m7\jc\Han_MCX_dmr_059_TranAttack_ni_Others_back" 
+	"$bumpmap" "models\sjz\ljgs\m7\jc\Han_MCX_dmr_059_TranAttack_ni_Others_NCE"
+
+ 
+   	"$Color2"					"[1 1 1]"
+	
+	"$EmissiveBlendEnabled" 		"1"			
+    "$EmissiveBlendStrength" 		"5" 						
+    "$EmissiveBlendTexture" 	    "vgui/white"		
+    "$EmissiveBlendBaseTexture" 	"models\sjz\ljgs\m7\jc\g\han_mcx_dmr_059_tranattack_ni_others_emissive"		
+    "$EmissiveBlendTint"            "[1 1 1]"  
+}

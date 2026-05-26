@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\sjz\ljgs\m7\jc\Dev_LAM_PEQ25_005_TranAttack_ni_Glass_C" 
+	"$bumpmap" "models\sjz\ljgs\m7\jc\Dev_LAM_PEQ25_005_TranAttack_ni_Glass_NCE"
+	"$lightwarptexture"					"models\sjz\ljgs\m7\jc\DDM4V5_LW"
+$no_draw 1
+    //"$lightwarptexture" "mxdlznb\taq556\light"
+    "$envmap"   "env_cubemap"  
+    "$envmaptint"                    "[.45 .45 .45]" //env反射色彩 
+    "$normalmapalphaenvmapmask"      "1" //使用法线贴图的alpha通道作为env的通道 
+    "$envmapfresnel" "1" //镜面反射强度
+    "$envmapFresnelMinMaxExp"		"[0 .4 1]"//和法线冲突 最小 最大 指数 面向自己的小于侧面
+
+    "$phong" "1"
+    "$phongboost" "1"  //phong强度 
+    "$phongexponent" "60" //1是灰蒙蒙一片 150是很油 
+    "$phongfresnelranges" "[5 10 20]" //phong范围，[a b c]a近 b中 c远
+    "$phongalbedotint" "1" //着色量由PhongExponentTexture绿色通道定义 布尔
+    "$REFRACTTINT" "{128 128 128}"
+    "$additive" "1" 
+}

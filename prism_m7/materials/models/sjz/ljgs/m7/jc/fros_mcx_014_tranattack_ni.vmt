@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\sjz\ljgs\m7\jc\FroS_MCX_014_TranAttack_ni_C" 
+	"$bumpmap" "models\sjz\ljgs\m7\jc\FroS_MCX_014_TranAttack_ni_NCE"
+	"$phongexponenttexture" "exponent"
+
+	"$lightwarptexture"					"ddm4v5_lw"
+	"$PhongTint"       "[1.11 .01 .01]"
+	$phong	"1"
+	$phongboost	"1"
+	$phongfresnelranges	"[.9 .5 .1]"
+	
+	$translucent 1
+
+	"$basemapalphaenvmapmask"	"1"
+
+	"$HalfLambert" 			    "0"
+	"$NoDecal" 				    "0"
+	"$NoCull" 				    "0"
+	"$BlendTintByBaseAlpha"     "0"
+	"$Color2"						"[.71 .01 .01]"	//< RGB colors
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[1.51 .01 .01]"
+	"$envmapcontrast" 1
+
+
+}

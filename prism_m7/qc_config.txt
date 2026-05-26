@@ -1,0 +1,45 @@
+-- QC Model Offset Configuration for prism_m7 weapons
+-- 参考: https://developer.valvesoftware.com/wiki/QC
+
+-- ============================================
+-- SG552 ViewModel (v_rif_sg552.mdl)
+-- ============================================
+-- 模型原始朝向: 弹夹朝南
+-- 需要: 枪口朝北（正Y方向）
+-- 旋转: 绕X轴翻转180度
+SWEP.VMPos = Vector(0, -3, 0)      -- $origin: X=右, Y=前(负), Z=上
+SWEP.VMAng = Vector(180, 0, 0)       -- $angles: Pitch(X), Yaw(Y), Roll(Z)
+
+-- ============================================
+-- Rifle ViewModel (v_rifle.mdl)
+-- ============================================
+SWEP.VMPos = Vector(0, -3, 0)
+SWEP.VMAng = Vector(180, 0, 0)
+
+-- ============================================
+-- AK47 ViewModel (v_rifle_ak47.mdl)
+-- ============================================
+SWEP.VMPos = Vector(0, -3, 0)
+SWEP.VMAng = Vector(180, 0, 0)
+
+-- ============================================
+-- QC 关键参数说明:
+-- ============================================
+-- $origin X Y Z     : 位置偏移
+-- $angles PITCH YAW ROLL : 旋转角度（度）
+--
+-- GMod 坐标系统:
+-- X = 右 (正值往右)
+-- Y = 前 (正值往前)
+-- Z = 上 (正值往上)
+--
+-- 旋转轴:
+-- Pitch (X) = 上下俯仰
+-- Yaw (Y) = 左右旋转
+-- Roll (Z) = 侧翻
+--
+-- 常见旋转:
+-- 180度翻转(弹夹朝前→枪口朝前): Vector(180, 0, 0)
+-- 90度左转: Vector(0, 90, 0)
+-- 90度右转: Vector(0, -90, 0)
+-- 枪托朝前: Vector(0, 0, 180)

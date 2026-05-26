@@ -1,0 +1,84 @@
+"UnlitGeneric"
+{
+"$baseTexture" "models\sjz\ljgs\m7\jc\sz"
+
+ 	"$selfillum" "1"
+ 
+	"$Color2"					"[1 1 1]"		
+	"$additive"                     "1"
+
+	$maxValue 999999
+	$div 1
+	$ten 10
+	$valueTemp 0
+	$valueTemp1 0
+	$valueTemp2 0
+
+	Proxies
+	{
+		ConVar
+		{
+			convar	"cl_glow_survivor_health_med_colorblind_b"
+			resultVar	"$valueTemp"
+		}
+		LessOrEqual
+		{
+			lessEqualVar	"$valueTemp"
+			greaterVar	"$maxValue"
+			srcVar1	"$valueTemp"
+			srcVar2	"$maxValue"
+			resultVar	"$valueTemp"
+		}
+		Divide
+		{
+			srcVar1	"$valueTemp"
+			srcVar2	"$div"
+			resultVar	"$valueTemp1"
+		}
+		Int
+		{
+			srcVar1	"$valueTemp1"
+			resultVar	"$valueTemp1"
+		}
+		Divide
+		{
+			srcVar1	"$valueTemp"
+			srcVar2	"$div"
+			resultVar	"$valueTemp2"
+		}
+		Int
+		{
+			srcVar1	"$valueTemp2"
+			resultVar	"$valueTemp2"
+		}
+		Divide
+		{
+			srcVar1	"$valueTemp2"
+			srcVar2	"$ten"
+			resultVar	"$valueTemp2"
+		}
+		Int
+		{
+			srcVar1	"$valueTemp2"
+			resultVar	"$valueTemp2"
+		}
+		Multiply
+		{
+			srcVar1	"$valueTemp2"
+			srcVar2	"$ten"
+			resultVar	"$valueTemp2"
+		}
+		Int
+		{
+			srcVar1	"$valueTemp2"
+			resultVar	"$valueTemp2"
+		}
+		Subtract
+		{
+			srcVar1	"$valueTemp1"
+			srcVar2	"$valueTemp2"
+			resultVar	"$frame"
+		}
+	}
+
+}

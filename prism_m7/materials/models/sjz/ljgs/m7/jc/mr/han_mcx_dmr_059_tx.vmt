@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\sjz\ljgs\m7\jc\han_tx" 
+ 
+ 	"$selfillum" "1"
+ 
+	"$Color2"					"[1 1 1]"	
+	"$additive"                     "1"
+
+	"Proxies"
+	{
+	"AnimatedTexture"
+	{
+	"animatedTextureVar" "$basetexture"
+	"animatedTextureFrameNumVar" "$frame"
+	"animatedTextureFrameRate" "10"
+	}
+	}
+}

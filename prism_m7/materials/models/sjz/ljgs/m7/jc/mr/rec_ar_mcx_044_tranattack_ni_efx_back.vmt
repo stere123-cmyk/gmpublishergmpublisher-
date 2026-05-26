@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\sjz\ljgs\m7\jc\back" 
+ 
+	"$lightwarptexture"					"models\sjz\ljgs\m7\jc\gray50alpha"
+
+ 
+	"$nocull" "1"
+ 
+
+ 
+}

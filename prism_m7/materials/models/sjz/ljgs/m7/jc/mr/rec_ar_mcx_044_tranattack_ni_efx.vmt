@@ -1,0 +1,25 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\sjz\ljgs\m7\jc\rec_tx" 
+ 
+	"$lightwarptexture"					"models\sjz\ljgs\m7\jc\gray50alpha"
+
+ 
+ 	"$selfillum" "1"
+ 
+	"$nocull" "1"
+	"$REFRACTTINT" "{128 128 128}"
+	"$additive" "1" 
+	
+	"$Color2"					"[1 1 1]"
+
+	"Proxies"
+	{
+	"AnimatedTexture"
+	{
+	"animatedTextureVar" "$basetexture"
+	"animatedTextureFrameNumVar" "$frame"
+	"animatedTextureFrameRate" "10"
+	}
+	}
+}

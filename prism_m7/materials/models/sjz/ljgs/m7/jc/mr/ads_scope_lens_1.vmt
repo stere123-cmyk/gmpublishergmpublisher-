@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$basetexture"			"models\sjz\ljgs\m7\jc\sco_glass_ni_c"
+	"$bumpmap"			"models\sjz\ljgs\m7\jc\sco_glass_ni_nce" 
+	"$phongexponenttexture"	"models\sjz\ljgs\m7\jc\holo_east_lens_s"
+ 
+    
+    $translucent 1
+}
+
+
